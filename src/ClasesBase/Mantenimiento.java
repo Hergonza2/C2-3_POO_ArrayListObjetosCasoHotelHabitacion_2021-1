@@ -11,4 +11,33 @@ package ClasesBase;
  */
 public class Mantenimiento {
     
+    private String fechaMantenimiento;
+
+    public Mantenimiento(String fechaMantenimiento) {
+        this.fechaMantenimiento = fechaMantenimiento;
+    }
+
+    /**
+     * Get the value of fechaMantenimiento
+     *
+     * @return the value of fechaMantenimiento
+     */
+    public String getFechaMantenimiento() {
+        return fechaMantenimiento;
+    }
+
+    /**
+     * Set the value of fechaMantenimiento
+     *
+     * @param fechaMantenimiento new value of fechaMantenimiento
+     */
+    public void setFechaMantenimiento(String fechaMantenimiento) {
+        this.fechaMantenimiento = fechaMantenimiento;
+    }
+
+    @Override
+    public String toString() {
+        return "Mantenimiento{" + "fechaMantenimiento=" + fechaMantenimiento + '}';
+    }
+
 }
