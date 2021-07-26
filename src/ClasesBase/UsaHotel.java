@@ -57,7 +57,7 @@ public class UsaHotel {
                 balcon = Boolean.parseBoolean(
                         JOptionPane.showInputDialog("tiene balcon true/false"));
                 
-                datoHabitacion.add(new Habitacion(piso, cantidadHabitaciones));
+                datoHabitacion.add(new Habitacion(piso, cantidadHabitaciones, 5));
             }
                 
             vectorHotel.add(new Hotel(
